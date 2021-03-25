@@ -45,7 +45,7 @@ setup(
     packages=find_packages(exclude=["tests", "tests.*"]),
     install_requires=install_requires,
     tests_require=["coverage==4.2", 
-                   "pyyaml==5.1.1"],
+                   "pyyaml==5.4"],
     extras_require={
         "dev": [
             "coverage",
